@@ -4,11 +4,19 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CafetriaManagmentSystem"
+        xmlns:shared="clr-namespace:CafetriaManagmentSystem.Shared"
         mc:Ignorable="d"
         WindowState="Maximized"
         WindowStyle="None"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="{StaticResource LightGreyBackGround}" FlowDirection="RightToLeft">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <shared:SideMenu></shared:SideMenu>
         
     </Grid>
 </Window>
