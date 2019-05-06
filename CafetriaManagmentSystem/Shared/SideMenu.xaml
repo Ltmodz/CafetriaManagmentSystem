@@ -14,7 +14,7 @@
         </Grid.RowDefinitions>
 
         <Image Grid.Row="0" Source="../Images/Logo.png"/>
-        <StackPanel Grid.Row="1">
+        <StackPanel Grid.Row="1" VerticalAlignment="Center">
             
         </StackPanel>
 
