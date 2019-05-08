@@ -5,30 +5,35 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:CafetriaManagmentSystem.Shared"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="60">
+             d:DesignHeight="1280" d:DesignWidth="60">
     <Grid Background="{StaticResource DarkGreyBackground}">
         
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
 
         <Image Grid.Row="0" Source="../Images/Logo.png"/>
         <StackPanel Grid.Row="1" VerticalAlignment="Center">
-            
             <Button Style="{StaticResource SideBarMenu}">
                 <Image Width="30" Height="30" Source="../Images/burger.png"></Image>
             </Button>
-            
             <Button Style="{StaticResource SideBarMenu}">
                 <Image Width="30" Height="30" Source="../Images/chips.png"></Image>
             </Button>
-            
             <Button Style="{StaticResource SideBarMenu}">
                 <Image Width="30" Height="30" Source="../Images/coffee.png"></Image>
             </Button>
 
+
+
+
         </StackPanel>
+
+        <Button Name="Logout" Grid.Row="2" Style="{StaticResource SideBarMenu}" Click="Logout_Click" ToolTip="تسجيل الخروج">
+            <Image Width="30" Height="30" Source="../Images/logout.png"></Image>
+        </Button>
 
     </Grid>
 </UserControl>
