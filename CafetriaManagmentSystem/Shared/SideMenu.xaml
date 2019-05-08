@@ -15,12 +15,15 @@
 
         <Image Grid.Row="0" Source="../Images/Logo.png"/>
         <StackPanel Grid.Row="1" VerticalAlignment="Center">
+            
             <Button Style="{StaticResource SideBarMenu}">
                 <Image Width="30" Height="30" Source="../Images/burger.png"></Image>
             </Button>
+            
             <Button Style="{StaticResource SideBarMenu}">
                 <Image Width="30" Height="30" Source="../Images/chips.png"></Image>
             </Button>
+            
             <Button Style="{StaticResource SideBarMenu}">
                 <Image Width="30" Height="30" Source="../Images/coffee.png"></Image>
             </Button>
