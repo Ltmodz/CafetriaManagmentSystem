@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CafetriaManagmentSystem"
         xmlns:shared="clr-namespace:CafetriaManagmentSystem.Shared"
+        xmlns:usercontrols="clr-namespace:CafetriaManagmentSystem.UserControls"
         mc:Ignorable="d"
         WindowState="Maximized"
         WindowStyle="None"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="1280" Width="1024">
     <Grid Background="{StaticResource LightGreyBackGround}" FlowDirection="RightToLeft">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="60"/>
@@ -16,7 +17,8 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
 
-        <shared:SideMenu></shared:SideMenu>
-        
+        <shared:SideMenu Grid.Column="0"/>
+        <usercontrols:Products Grid.Column="1"/>
+
     </Grid>
 </Window>
