@@ -24,5 +24,10 @@ namespace CafetriaManagmentSystem.Shared
         {
             InitializeComponent();
         }
+
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
     }
 }
