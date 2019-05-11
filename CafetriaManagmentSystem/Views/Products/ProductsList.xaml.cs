@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CafetriaManagmentSystem.UserControls
+namespace CafetriaManagmentSystem.Views.Products
 {
     /// <summary>
-    /// Interaction logic for Products.xaml
+    /// Interaction logic for ProductsList.xaml
     /// </summary>
-    public partial class Products : UserControl
+    public partial class ProductsList : UserControl
     {
-        public Products()
+        public ProductsList()
         {
             InitializeComponent();
         }

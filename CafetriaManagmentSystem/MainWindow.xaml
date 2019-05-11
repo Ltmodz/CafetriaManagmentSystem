@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CafetriaManagmentSystem"
         xmlns:shared="clr-namespace:CafetriaManagmentSystem.Shared"
-        xmlns:usercontrols="clr-namespace:CafetriaManagmentSystem.UserControls"
+        xmlns:usercontrols="clr-namespace:CafetriaManagmentSystem.Views.Products"
         mc:Ignorable="d"
         WindowState="Maximized"
         WindowStyle="None"
@@ -18,7 +18,7 @@
         </Grid.ColumnDefinitions>
 
         <shared:SideMenu Grid.Column="0"/>
-        <usercontrols:Products Grid.Column="1"/>
+        <usercontrols:ProductsList/>
 
     </Grid>
 </Window>
